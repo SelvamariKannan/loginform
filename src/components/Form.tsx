@@ -16,18 +16,15 @@ function Form() {
   };
 
   const handleSubmit = () => {
-    // Always set errors to true when submitting
     const newError = {
-      username: true, // Trigger error for username
-      password: true, // Trigger error for password
-      organization: true // Trigger error for organization
+      username: true, 
+      password: true, 
+      organization: true 
     };
     setError(newError);
 
-    // Set username to empty to trigger validation message
-    setUsername(''); // This will trigger the email validation message
+    setUsername(''); 
 
-    // Log the values regardless of errors
     console.log('username:', username);
     console.log('password:', password);
     console.log('organization:', selectedOrganization);
