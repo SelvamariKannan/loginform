@@ -1,14 +1,20 @@
+import { BrowserRouter as Router, Route, Routes, useLocation } from "react-router-dom";
 import "./App.css";
-import { Button } from "primereact/button";
 import Form from "./components/Form";
-import Background from "./components/Background";
+import Program from "./components/Program";
 
 function App() {
+
   return (
-    <div>
-      <Background />
-      <Form />
-    </div>
+    <Router>
+      <div>
+        {/* Removed Background component */}
+        <Routes>
+          <Route path="/" element={<Form />} />
+          <Route path="/program" element={<Program />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

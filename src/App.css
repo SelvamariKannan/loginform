@@ -22,3 +22,13 @@ body, html {
   font-family: 'Poppins', sans-serif; /* Set Poppins as the default font */
 
 }
+
+.password{
+  display: flex;
+  width:  ;
+}
+
+.p-password{
+  width: 100%;
+  padding: ;
+}
