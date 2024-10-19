@@ -1,0 +1,35 @@
+.sidenav {
+    width: 300px;
+    background-color: #ffffff;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 20px;
+    height: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+.sidenav h1 {
+  margin-bottom: 50px;
+  margin-left: 40px;
+
+}
+
+.sidenav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidenav li {
+  margin-bottom: 10px;
+}
+
+.sidenav a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 5px 10px;
+}
+
+.sidenav a:hover {
+  background-color: #f0f0f0;
+}

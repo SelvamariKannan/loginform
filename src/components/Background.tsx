@@ -15,12 +15,12 @@ export default function Background() {
     }}>
       <div style={{ 
         backgroundColor: 'white', 
-        height: '70px', // Adjust height as needed
+        height: '70px', 
         width: '100%', 
         position: 'absolute', 
         top: 0, 
         left: 0, 
-        zIndex: 1 // Ensure it appears above the background
+        zIndex: 1 
       }}>
         {/* Navigation Bar Content */}
       </div>

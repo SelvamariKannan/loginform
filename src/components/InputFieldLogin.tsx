@@ -13,8 +13,8 @@ export default function InputFieldLogin({ username, setUsername, invalid }: { us
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
     setUsername(value);
-    setEmailEmpty(value.trim() === ""); // Check if the input is empty
-    setEmailInvalid(!validateEmail(value)); // Validate the email format
+    setEmailEmpty(value.trim() === ""); 
+    setEmailInvalid(!validateEmail(value)); 
   };
 
   return (
@@ -29,11 +29,11 @@ export default function InputFieldLogin({ username, setUsername, invalid }: { us
           placeholder="Enter your email"
           className={invalid || emailInvalid || emailEmpty ? 'p-invalid' : ''}
         />
-        {emailEmpty ? ( // Show error message for empty input
+        {emailEmpty ? ( 
           <small id="username-help" className="text-red-800">
             Enter your Email Address
           </small>
-        ) : emailInvalid ? ( // Show error message for invalid email
+        ) : emailInvalid ? ( 
           <small id="username-help" className="text-red-800">
             Enter a valid Email Address
           </small>

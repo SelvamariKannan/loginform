@@ -6,9 +6,6 @@
   padding: 4%;
   justify-content: center;
   padding-right: 30px;
-  
-  
-  
   background-color: rgb(255, 255, 255);
   border-radius: 40px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -19,16 +16,34 @@
 body, html {
   margin: 0; 
   height: 100%; 
-  font-family: 'Poppins', sans-serif; /* Set Poppins as the default font */
+  font-family: 'Poppins', sans-serif; 
 
 }
 
-.password{
+.program-container {
   display: flex;
-  width:  ;
+  height: 100vh;
 }
 
-.p-password{
-  width: 100%;
-  padding: ;
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+background-color: rgb(240, 240, 240);
+  overflow-y: auto;
+}
+
+.data-table-card {
+  padding: 1rem;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+}
+
+.custom-row-spacing {
+  height: 3rem; 
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+  padding: 1rem 0.5rem; 
 }
